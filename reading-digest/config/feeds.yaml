@@ -1,0 +1,32 @@
+# Seed feeds for the candidate pool.
+# These are starting points, not a fixed whitelist — the scoring step
+# (step 3) decides what's actually good, so it's fine (encouraged, even)
+# to add more feeds here over time without changing any code.
+
+substack_publications:
+  # Known-loved newsletters — anchors, always included in the pool
+  - name: "velvet noise"
+    url: "https://velvetnoise.substack.com/feed"
+  - name: "carinas"
+    url: "https://carinas.substack.com/feed"
+  # A few well-known adjacent newsletters in the same territory
+  - name: "The Marginalian"
+    url: "https://www.themarginalian.org/feed/"
+  - name: "Ness Labs"
+    url: "https://nesslabs.com/feed"
+  - name: "Raptitude"
+    url: "https://www.raptitude.com/feed/"
+
+# Medium publishes an official RSS feed per tag: medium.com/feed/tag/<tag>
+# This is how we get "broader topic" breadth from Medium specifically —
+# Substack doesn't expose an equivalent topic-wide feed, so its breadth
+# comes from adding more individual publications above over time.
+medium_tags:
+  - "neuroscience"
+  - "psychology"
+  - "self-improvement"
+  - "personal-growth"
+  - "creativity"
+
+# How many days back to consider an entry "new" for a given run
+max_age_days: 10

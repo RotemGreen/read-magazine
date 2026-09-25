@@ -1,0 +1,55 @@
+{
+  "number": 1,
+  "date": "2026-09-25",
+  "picks": [
+    {
+      "title": "Why Your Brain Replays the Same Dream",
+      "link": "https://example.substack.com/p/dream-replay",
+      "source": "example newsletter",
+      "blurb": "A love letter to REM sleep, and the reruns it insists on.",
+      "tag": "neuroscience"
+    },
+    {
+      "title": "The Slow Bloom of Becoming Yourself",
+      "link": "https://example.substack.com/p/slow-bloom",
+      "source": "velvet noise",
+      "blurb": "On growth that doesn't announce itself.",
+      "tag": "self-growth"
+    },
+    {
+      "title": "Invisible Strings and Not-So-Random Coincidences",
+      "link": "https://carinas.substack.com/p/invisible-strings",
+      "source": "carinas",
+      "blurb": "A gentle case for noticing the threads that connect us.",
+      "tag": "beautiful-writing"
+    },
+    {
+      "title": "Why Meetings Feel Longer Than Childhood Summers",
+      "link": "https://example.substack.com/p/time-perception",
+      "source": "example newsletter",
+      "blurb": "The strange math behind why time speeds up as we age.",
+      "tag": "psychology"
+    },
+    {
+      "title": "What Neuroplasticity Actually Changes",
+      "link": "https://example.substack.com/p/neuroplasticity",
+      "source": "Ness Labs",
+      "blurb": "Less magic, more architecture: how the brain really rewires.",
+      "tag": "neuroscience"
+    },
+    {
+      "title": "The Necessary Delusion",
+      "link": "https://velvetnoise.substack.com/p/the-necessary-delusion-why-you-should",
+      "source": "velvet noise",
+      "blurb": "On belief, prediction, and why some illusions are worth keeping.",
+      "tag": "self-growth"
+    },
+    {
+      "title": "On Romanticizing the Ordinary Tuesday",
+      "link": "https://example.substack.com/p/ordinary-tuesday",
+      "source": "Raptitude",
+      "blurb": "A quiet argument for treating your own life like it matters.",
+      "tag": "beautiful-writing"
+    }
+  ]
+}

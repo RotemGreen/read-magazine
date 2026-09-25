@@ -1,0 +1,47 @@
+name: Weekly reading digest
+
+on:
+  schedule:
+    # Every Monday at 07:00 UTC — adjust to taste
+    - cron: "0 7 * * 1"
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write   # needed so the workflow can commit the new issue + site
+
+jobs:
+  build-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch candidates
+        run: python scripts/fetch_candidates.py
+
+      - name: Score candidates
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/score_candidates.py
+
+      - name: Generate issue
+        run: python scripts/generate_issue.py
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "reading-digest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          git diff --staged --quiet && echo "Nothing new to commit" || git commit -m "New issue: $(date -u +%Y-%m-%d)"
+          git push
