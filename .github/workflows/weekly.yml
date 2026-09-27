@@ -1,0 +1,39 @@
+name: Build and publish issue
+
+on:
+  push:
+    paths:
+      - "data/picks.json"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml jinja2
+
+      - name: Generate issue from picks.json
+        run: python scripts/generate_issue.py
+
+      - name: Build site
+        run: python scripts/build_site.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "reading-digest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/
+          git diff --staged --quiet && echo "Nothing new to commit" || git commit -m "New issue: $(date -u +%Y-%m-%d)"
+          git push
