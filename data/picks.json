@@ -1,9 +1,51 @@
 [
-  {"title": "Why Your Brain Replays the Same Dream", "link": "https://example.substack.com/p/dream-replay", "source": "example newsletter", "score": 9, "blurb": "A love letter to REM sleep, and the reruns it insists on.", "tag": "neuroscience"},
-  {"title": "The Slow Bloom of Becoming Yourself", "link": "https://example.substack.com/p/slow-bloom", "source": "velvet noise", "score": 8, "blurb": "On growth that doesn't announce itself.", "tag": "self-growth"},
-  {"title": "Invisible Strings and Not-So-Random Coincidences", "link": "https://carinas.substack.com/p/invisible-strings", "source": "carinas", "score": 9, "blurb": "A gentle case for noticing the threads that connect us.", "tag": "beautiful-writing"},
-  {"title": "Why Meetings Feel Longer Than Childhood Summers", "link": "https://example.substack.com/p/time-perception", "source": "example newsletter", "score": 8, "blurb": "The strange math behind why time speeds up as we age.", "tag": "psychology"},
-  {"title": "What Neuroplasticity Actually Changes", "link": "https://example.substack.com/p/neuroplasticity", "source": "Ness Labs", "score": 7, "blurb": "Less magic, more architecture: how the brain really rewires.", "tag": "neuroscience"},
-  {"title": "The Necessary Delusion", "link": "https://velvetnoise.substack.com/p/the-necessary-delusion-why-you-should", "source": "velvet noise", "score": 9, "blurb": "On belief, prediction, and why some illusions are worth keeping.", "tag": "self-growth"},
-  {"title": "On Romanticizing the Ordinary Tuesday", "link": "https://example.substack.com/p/ordinary-tuesday", "source": "Raptitude", "score": 8, "blurb": "A quiet argument for treating your own life like it matters.", "tag": "beautiful-writing"}
+  {
+    "title": "About a house",
+    "link": "https://carinas.substack.com/p/about-a-house",
+    "source": "Carina, I've Been Thinking",
+    "blurb": "A four-generation house, and what it means to feel embedded in soil that isn't going anywhere.",
+    "tag": "beautiful-writing"
+  },
+  {
+    "title": "how a mind learns to improvise",
+    "link": "https://velvetnoise.substack.com/p/why-some-conversations-feel-like",
+    "source": "velvet noise",
+    "blurb": "What a genuinely curious friend can teach you about following ideas past where everyone else stops.",
+    "tag": "self-growth"
+  },
+  {
+    "title": "Nostalgia Is the Closest Thing We Have to Time Travel",
+    "link": "https://astromd.substack.com/p/nostalgia-is-the-closest-thing-we",
+    "source": "AstroMD",
+    "blurb": "Episodic memory, the reminiscence bump, and why nostalgia can feel like stepping back inside a room.",
+    "tag": "psychology"
+  },
+  {
+    "title": "Issue 97: Living a Fact-Check",
+    "link": "https://remappingmyself.substack.com/p/issue-97-living-a-fact-check",
+    "source": "Andy Lien, Remapping Myself",
+    "blurb": "A precise, personal meditation on what neuroplasticity actually rebuilds \u2014 myelin included.",
+    "tag": "neuroscience"
+  },
+  {
+    "title": "Why You Dream: The Neuroscience of the Strangest Thing Your Brain Does",
+    "link": "https://popularrationalism.substack.com/p/why-you-dream-the-neuroscience-of",
+    "source": "Popular Rationalism",
+    "blurb": "Your prefrontal cortex clocks out at night, and that's exactly why dreams make no sense.",
+    "tag": "neuroscience"
+  },
+  {
+    "title": "the neuroscience of becoming someone new",
+    "link": "https://allisoncanales.substack.com/p/how-i-use-neuroplasticity-to-get",
+    "source": "Eros and Honey",
+    "blurb": "What actually happens in your nervous system when you become someone new, minus the vision-board mysticism.",
+    "tag": "self-growth"
+  },
+  {
+    "title": "Ask instead of update",
+    "link": "https://carinas.substack.com/p/ask-instead-of-update",
+    "source": "Carina, I've Been Thinking",
+    "blurb": "Why asking beats updating, and how to stay in the messy middle of a friendship.",
+    "tag": "psychology"
+  }
 ]
